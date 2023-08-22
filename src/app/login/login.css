@@ -1,0 +1,115 @@
+.principal-content{
+    width: 50%;
+}
+.container-fondo {
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    background-color: rgb(17, 17, 17);
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+.img-fondo {
+    width: 100%;
+    height: auto;
+    margin-top: 3.9%;
+}
+.img-small-logo{
+    width: 12.9%;
+    margin-top: 2.8%;
+    margin-left: 9%;
+    height: auto;
+}
+.logo {
+    border: none;
+    margin-top: 37.7%;
+    margin-left: 27%;
+}
+.container-login {
+    width: 27%;
+    height: 53.5%;
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+    top: 31.2%;
+    left: 62.8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fefcff;
+    border-radius: 9px;
+    border-bottom-style: outset; 
+    border-bottom-color: #f5f3f7;
+    border-bottom-width: 3px;
+}
+.container-login h2 {
+    margin-top: 13%;
+    font-size: 1.6vw;
+    font-weight: 400;
+    color: #1b1b1b;
+}
+.container-login p {
+    font-size: 0.9vw;
+    margin-top: -2%;
+    color: #646364;
+}
+form label{
+    font-size: 0.9vw;
+    margin-top: 15%;
+    color: #646364;
+}
+form input {
+    width: 100%;
+    height: 35px;
+    border-radius: 25px;
+    box-shadow: 3px;
+    border-bottom-style:ridge;
+    border: solid #a9a6aa 0.5px;
+    margin-top: 1%;
+    margin-left: -3.3%;
+    padding-inline: 3%;
+}
+form input::placeholder {
+    padding-inline: 2%;
+    font-size: 1vw;
+}
+.container-mail {
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    margin-left: -25%;
+}
+.container-passw {
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    margin-left: -25%;
+    margin-bottom: 30%;
+}
+.btn-login {
+    width: 150%;
+    height: 32px;
+    margin-left: -25%;
+    border-radius: 25px;
+    font-size: .8vw;
+    font-weight: 300;
+    color: #8b878b;
+    border: none;
+    cursor: pointer;
+    background-color: #e7e6e9;
+}
+.footer {
+    width: 99.5%;
+    height: 70px;
+    margin-top: 75%;
+    top: -19%;
+    left: 0;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.img-footer {
+    margin-left: 48%;
+    margin-top: 2%;
+}
