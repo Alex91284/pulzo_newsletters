@@ -2,7 +2,10 @@
   "name": "pulso_newsletters",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alex91284.github.io/pulzo_newsletters/",
   "scripts": {
+    "preddeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -17,6 +20,7 @@
     "bcryptjs": "^2.4.3",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.16",
+    "gh-pages": "^6.0.0",
     "mysql2": "^3.6.0",
     "next": "13.4.16",
     "next-auth": "^4.23.1",
